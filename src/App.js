@@ -17,7 +17,7 @@ const App = () =>{
 
   const handleInputChange = (e) =>{
     setUrl(e.target.value);
-  }
+  } 
 
   const handleGeneratedQR =() => {
     if(url){
